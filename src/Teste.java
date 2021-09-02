@@ -18,19 +18,19 @@ public class Teste {
 			System.out.println("Você escolheu desenha um Triângulo!");
 			System.out.println("Digite o valor da base do Triângulo!");
 			int baseT = entrada.nextInt();
-			int y =baseT;
-			int z = baseT;
-				for(y = 1; y<baseT;y++) {
-					for(z = 1; z<y; z++) {
-						System.out.print("*  ");
-					}System.out.println("");
+
+				for(int w = baseT; w>0;w--) {
+					for(int y = 0; y<w; y++) {
+						System.out.print(" ");
+						
+					}System.out.print("*");
+					for(int z = baseT; z>w; z--) {
+						System.out.print("*");
+					} for(int z = baseT; z>w; z--) {
+						System.out.print("*");
+					} 
+					System.out.println("");
 				}
-				for(z=baseT; z>1;z--) {
-					for(y = 1; y<z; y++) {
-						System.out.print("*  ");
-					}System.out.println("");
-			}
-			
 			break;
 			
 		case 2: 
