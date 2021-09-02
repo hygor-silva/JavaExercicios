@@ -17,9 +17,9 @@ public abstract class testeApp {
 				}System.out.print("*");
 				for(y = 8; y>x; y--) {
 					System.out.print("*");
-					
-				}
-				
+				} for(y = 8; y>x; y--) {
+					System.out.print("*");
+				} 
 				System.out.println("");
 				
 			}
