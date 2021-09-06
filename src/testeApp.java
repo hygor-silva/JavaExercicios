@@ -7,29 +7,43 @@ public abstract class testeApp {
 		int x = 0;
 		int z = 0;
 		int y = 0;
+		int w = 0;
+		int a = 0;
 		
 		
 		
-			for(x = 8; x>1;x--) {
-				for(i = 1; i<x; i++) {
+			for(x = 10; x>0;x--) {
+				for(i = 0; i<x; i++) {
 					System.out.print(" ");
 					
-				}System.out.print("*");
-				for(y = 8; y>x; y--) {
+				}
+				for(y = 10; y>x; y--) {
 					System.out.print("*");
-				} for(y = 8; y>x; y--) {
+				} for(y = 10; y>x; y--) {
 					System.out.print("*");
 				} 
 				System.out.println("");
 				
 			}
-			/*
-			for(z=8; z>1;z--) {
-				for(i = 1; i<z; i++) {
+			
+			for(z=10; z>1;z--) {
+				for(i = 10; i>z; i--) {
+				System.out.print(" ");
+				
+				
+				}for(w = 0; w<i; w++) {
+					
 				System.out.print("*");
-	}System.out.println("");
+				
+				
+				}
+				for(a = 0; a<i-1; a++) {
+					System.out.print("*");
+					
+				}System.out.println("");
+	
 		}
-*/
+
 			
 			
 		}
