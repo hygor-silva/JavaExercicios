@@ -14,18 +14,23 @@ public abstract class testeApp {
 		
 		
 			for(x = 6; x>0;x--) {
-				for(i = 0; i<x-1; i++) {
-					System.out.print(" ");
+				if(x <=3) {
 					
+					
+					for(i = 0; i<x-1; i++) {
+						System.out.print(" ");
+						
+					}
+					for(y = 6; y>x; y--) {
+						System.out.print("*");
+					} 
+					System.out.print("");
+					for(y = 6; y>x; y--) {
+						System.out.print("*");
+					} 
+					System.out.println(" ");
 				}
-				for(y = 6; y>x; y--) {
-					System.out.print("*");
-				} 
-				System.out.print("");
-				for(y = 6; y>x; y--) {
-					System.out.print("*");
-				} 
-				System.out.println(" ");
+				
 				
 				
 			}System.out.print("");
@@ -44,6 +49,10 @@ public abstract class testeApp {
 					System.out.print("*");
 					
 				}System.out.println("");
+				if(w <=3) {
+				
+					break;
+				}
 	
 		}
 
