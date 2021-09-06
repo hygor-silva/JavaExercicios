@@ -12,29 +12,32 @@ public abstract class testeApp {
 		
 		
 		
-			for(x = 10; x>0;x--) {
-				for(i = 0; i<x; i++) {
+		
+			for(x = 6; x>0;x--) {
+				for(i = 0; i<x-1; i++) {
 					System.out.print(" ");
 					
 				}
-				for(y = 10; y>x; y--) {
-					System.out.print("*");
-				} for(y = 10; y>x; y--) {
+				for(y = 6; y>x; y--) {
 					System.out.print("*");
 				} 
-				System.out.println("");
+				System.out.print("");
+				for(y = 6; y>x; y--) {
+					System.out.print("*");
+				} 
+				System.out.println(" ");
 				
-			}
-			
-			for(z=10; z>1;z--) {
-				for(i = 10; i>z; i--) {
+				
+			}System.out.print("");
+			System.out.print("");
+			for(z=6; z>1;z--) {
+				for(i = 6; i>z; i--) {
 				System.out.print(" ");
 				
 				
-				}for(w = 0; w<i; w++) {
+				}for(w = 0; w<i-1; w++) {
 					
 				System.out.print("*");
-				
 				
 				}
 				for(a = 0; a<i-1; a++) {
